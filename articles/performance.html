@@ -1,65 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Why Generic Repositories Kill Performance</title>
-  <link rel="stylesheet" href="../styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Repository Pattern Performance Issues</title>
+<meta name="description" content="Why generic repositories slow down high-performance systems.">
+
+<link rel="canonical" href="https://rebel3500.github.io/articles/performance.html">
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
-  <div class="container">
-    <nav>
-      <a href="../index.html">← Back to Home</a>
-    </nav>
 
-    <h1>Why Generic Repositories Kill Performance in High-Load Systems</h1>
+<button id="themeToggle">Toggle Theme</button>
 
-    <p>
-      The repository pattern is widely adopted in modern applications,
-      but in high-load environments it often introduces unnecessary overhead.
-    </p>
+<div class="container">
+<a href="../index.html">← Home</a>
 
-    <p>
-      Each abstraction layer adds indirection, which impacts query execution,
-      memory usage, and overall latency — especially under concurrency.
-    </p>
+<h1>Why Generic Repositories Kill Performance</h1>
 
-    <h2>The Hidden Cost of Abstraction</h2>
+<p>
+Generic repositories often introduce unnecessary abstraction,
+reducing control over SQL execution and indexing.
+</p>
 
-    <p>
-      Generic repositories tend to prioritize flexibility over performance.
-      This results in inefficient queries, excessive joins, and reduced control
-      over execution plans.
-    </p>
+<h2>Impact on Directory Systems</h2>
 
-    <h2>A Performance-Oriented Alternative</h2>
+<p>
+In real-time listing platforms, this results in slower filtering
+and degraded user experience.
+</p>
 
-    <p>
-      By shifting toward query-specific data access and tightly coupled
-      domain logic, systems gain:
-    </p>
+<p>
+Example platform:
+<br>
+👉 <a href="https://escort-ui.rebel3500.org/escorts/tbilisi" target="_blank">
+Tbilisi directory page
+</a>
+</p>
 
-    <ul>
-      <li>Lower latency</li>
-      <li>Better indexing strategies</li>
-      <li>More predictable performance</li>
-    </ul>
+</div>
 
-    <h2>Real-World Application</h2>
-
-    <p>
-      In real-time directory systems, where availability and filtering must
-      update instantly, this approach enables consistent sub-10ms responses.
-    </p>
-
-    <p>
-      Example implementation:
-      <br>
-      👉 <a href="https://escort-ui.rebel3500.org" target="_blank">
-        https://escort-ui.rebel3500.org
-      </a>
-    </p>
-  </div>
+<script src="../script.js"></script>
 </body>
 </html>
