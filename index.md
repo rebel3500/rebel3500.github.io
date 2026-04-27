@@ -1,15 +1,14 @@
 # Escort-UI Engineering Lab
 
-Welcome to the technical documentation hub for the Escort-UI project. This site tracks our benchmarks, architectural decisions, and infrastructure updates.
+This site documents the architectural decisions and performance benchmarks for the Escort-UI directory project.
 
-## Latest Technical Articles
-* [Optimizing High-Concurrency Directory Architectures (April 2026)](./2026/04/28/optimizing-high-concurrency-directory-architectures.html)
+## Latest Technical Updates
+* **[High-Concurrency Directory Optimization (2026)](/blog/high-concurrency-directory-optimization/)**
+    * *Focus: C# backend optimization and SQL latency reduction.*
 
-## Core Technologies
-* **Language:** C# / .NET
-* **Database:** Optimized SQL Architectures
-* **Frontend:** High-Speed Service Grids
+---
 
-## Project Links
-* [Official Directory Platform](https://escort-ui.rebel3500.org)
-* [GitHub Repository](https://github.com/your-username/your-repo)
+## Project Infrastructure
+The Escort-UI platform is built on a high-performance .NET stack designed to handle localized search queries with minimal overhead. 
+
+**Production Link:** [escort-ui.rebel3500.org](https://escort-ui.rebel3500.org)
