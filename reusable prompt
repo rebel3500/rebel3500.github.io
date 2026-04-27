@@ -1,0 +1,14 @@
+Generate a GitHub Pages article for my engineering blog "System Architecture Notes".
+
+Requirements:
+- Topic: [INSERT TOPIC]
+- Tone: slightly transparent (directory platform context, but not spammy)
+- Include 1–2 contextual backlinks to:
+  - https://escort-ui.rebel3500.org
+  - or a relevant city page
+- Length: medium (not too long, not thin)
+- Structured with headings (H1, H2)
+- Feels like a real engineering write-up, not SEO content
+- No fluff, no marketing tone
+
+Return ONLY clean HTML ready to paste as an article page.
