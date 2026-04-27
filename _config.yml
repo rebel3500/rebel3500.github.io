@@ -1,10 +1,8 @@
-theme: jekyll-theme-minimal
-title: Escort-UI Architecture & Engineering
-description: Technical case studies on high-concurrency directory systems, .NET performance optimization, and SQL scaling.
-# If using a custom domain, uncomment the next line:
-# url: "https://escort-ui.rebel3500.org" 
-
-# SEO & UI Settings
+remote_theme: pages-themes/architect@v0.2.0
+title: Escort-UI Architecture Lab
+description: Performance benchmarks and infrastructure documentation for the rebel3500 directory engine.
 show_downloads: false
 google_analytics: 
-remote_theme: pages-themes/minimal@v0.2.0
+
+# This fixes the broken link issue by creating a clean URL
+permalink: /blog/:title/
