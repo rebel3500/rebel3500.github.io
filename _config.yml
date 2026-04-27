@@ -2,7 +2,8 @@ remote_theme: pages-themes/architect@v0.2.0
 title: Escort-UI Architecture Lab
 description: Performance benchmarks and infrastructure documentation for the rebel3500 directory engine.
 show_downloads: false
-google_analytics: 
+baseurl: ""
+url: "https://rebel3500.github.io"
 
-# This fixes the broken link issue by creating a clean URL
+# This ensures the link is clean: rebel3500.github.io/blog/high-concurrency-directory-optimization/
 permalink: /blog/:title/
