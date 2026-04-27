@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scaling Read-Heavy Systems</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <a href="../index.html">← Back to Home</a>
+    </nav>
+
+    <h1>Scaling Read-Heavy Systems Without Losing Consistency</h1>
+
+    <p>
+      Many modern platforms are overwhelmingly read-heavy,
+      especially directory-style applications with filtering and search.
+    </p>
+
+    <h2>The Core Problem</h2>
+
+    <p>
+      As traffic grows, read queries begin to dominate system resources.
+      Without proper design, this leads to increased latency and stale data.
+    </p>
+
+    <h2>Strategies That Work</h2>
+
+    <ul>
+      <li>Read-optimized database schemas</li>
+      <li>Selective caching instead of blanket caching</li>
+      <li>Precomputed query results for common filters</li>
+      <li>Efficient indexing on location and availability</li>
+    </ul>
+
+    <h2>Balancing Freshness and Speed</h2>
+
+    <p>
+      Real-time systems require a balance between consistency and performance.
+      Instead of full synchronization, targeted updates and partial invalidation
+      often provide better results.
+    </p>
+
+    <h2>Production Example</h2>
+
+    <p>
+      A live directory implementation demonstrating these principles:
+      <br>
+      👉 <a href="https://escort-ui.rebel3500.org" target="_blank">
+        https://escort-ui.rebel3500.org
+      </a>
+    </p>
+  </div>
+</body>
+</html>
