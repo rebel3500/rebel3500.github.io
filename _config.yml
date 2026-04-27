@@ -1,3 +1,10 @@
 theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Escort-UI Architecture & Engineering
+description: Technical case studies on high-concurrency directory systems, .NET performance optimization, and SQL scaling.
+# If using a custom domain, uncomment the next line:
+# url: "https://escort-ui.rebel3500.org" 
+
+# SEO & UI Settings
+show_downloads: false
+google_analytics: 
+remote_theme: pages-themes/minimal@v0.2.0
