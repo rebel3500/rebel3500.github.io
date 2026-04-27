@@ -1,13 +1,15 @@
-# Escort-UI Technical Architecture
+# Escort-UI Public Documentation
 
-This repository hosts the technical documentation and engineering blog for the **Escort-UI** directory platform. 
+This repository contains the technical documentation and architectural case studies for the **Escort-UI** project.
 
-### Project Overview
-Escort-UI focuses on high-performance directory retrieval. We utilize a lean C# stack and direct SQL optimization to maintain sub-10ms response times.
+### Technical Stack
+* **Language:** C# / .NET
+* **Persistence:** Optimized SQL (Direct Proc execution)
+* **Frontend:** Low-latency service grid
 
-### Documentation Site
-The full architecture blog and performance benchmarks are hosted via GitHub Pages:
-**[View Technical Documentation](https://yourusername.github.io/your-repo-name/)**
+### Live Documentation
+The engineering blog and infrastructure deep-dives are hosted here:
+**[https://rebel3500.github.io/YOUR-REPO-NAME/](https://rebel3500.github.io/YOUR-REPO-NAME/)**
 
-### Production Link
-The live implementation of this architecture can be seen at [escort-ui.rebel3500.org](https://escort-ui.rebel3500.org).
+### Production Environment
+The live directory implementation can be found at [escort-ui.rebel3500.org](https://escort-ui.rebel3500.org).
