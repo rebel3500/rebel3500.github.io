@@ -1,54 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>High-Concurrency Directory Architectures</title>
-  <link rel="stylesheet" href="../styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>High-Concurrency Directory Architectures</title>
+<meta name="description" content="Optimizing real-time directory systems for performance and scalability.">
+
+<link rel="canonical" href="https://rebel3500.github.io/articles/architecture.html">
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
-  <div class="container">
-    <nav>
-      <a href="../index.html">← Back to Home</a>
-    </nav>
 
-    <h1>Optimizing High-Concurrency Directory Architectures for 2026</h1>
+<button id="themeToggle">Toggle Theme</button>
 
-    <p>
-      Building a modern service directory is no longer about storage —
-      it's about <strong>retrieval under load</strong>.
-    </p>
+<div class="container">
+<a href="../index.html">← Home</a>
 
-    <p>
-      Systems that combine real-time availability with localized filtering
-      must handle high concurrency without degrading latency.
-    </p>
+<h1>Optimizing High-Concurrency Directory Architectures</h1>
 
-    <h2>Performance-First Backend</h2>
+<p>
+Modern directory platforms must handle real-time availability,
+location-based filtering, and high concurrency simultaneously.
+</p>
 
-    <p>
-      A lean C# backend with optimized SQL procedures allows queries
-      to consistently resolve under 10ms, even during peak traffic.
-    </p>
+<p>
+In production systems, the primary bottleneck is not storage —
+it is <strong>retrieval under load</strong>.
+</p>
 
-    <h2>Eliminating Abstraction Overhead</h2>
+<h2>Performance-Driven Backend</h2>
 
-    <p>
-      Generic repositories introduce unnecessary latency.
-      Direct query-driven domain logic provides better control
-      and predictable performance.
-    </p>
+<p>
+A lean C# backend combined with optimized SQL queries allows
+sub-10ms response times even during peak traffic.
+</p>
 
-    <h2>Live System Example</h2>
+<h2>Real Implementation</h2>
 
-    <p>
-      See a real implementation here:
-      <br>
-      👉 <a href="https://escort-ui.rebel3500.org" target="_blank">
-        https://escort-ui.rebel3500.org
-      </a>
-    </p>
-  </div>
+<p>
+A live system demonstrating these principles:
+<br>
+👉 <a href="https://escort-ui.rebel3500.org" target="_blank">
+Main directory platform
+</a>
+</p>
+
+<p>
+Location-specific pages:
+<br>
+👉 <a href="https://escort-ui.rebel3500.org/escorts/tbilisi" target="_blank">Tbilisi listings</a><br>
+👉 <a href="https://escort-ui.rebel3500.org/escorts/batumi" target="_blank">Batumi listings</a>
+</p>
+
+</div>
+
+<script src="../script.js"></script>
 </body>
 </html>
