@@ -2,54 +2,42 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Repository Pattern Performance Issues</title>
-<meta name="description" content="Why generic repositories slow down high-performance systems.">
-
-<link rel="canonical" href="https://rebel3500.github.io/articles/performance.html">
-
+<title>Why Generic Repositories Kill Performance</title>
+<meta name="description" content="Understanding how abstraction layers impact performance in high-load systems.">
 <link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
-
-<button id="themeToggle">Toggle Theme</button>
-
 <div class="container">
+
 <a href="../index.html">← Home</a>
 
 <h1>Why Generic Repositories Kill Performance</h1>
 
 <p>
-Generic repositories often introduce unnecessary abstraction,
-reducing control over SQL execution and indexing.
+Generic repositories often introduce unnecessary abstraction that can significantly
+impact performance in high-load systems.
 </p>
 
-<h2>Impact on Directory Systems</h2>
-
 <p>
-In real-time listing platforms, this results in slower filtering
-and degraded user experience.
+Optimizing data access patterns is critical for large-scale directory platforms.
 </p>
 
 <h2>Why This Matters</h2>
+
 <p>
-Modern directory platforms (including escort-style listing systems) require a balance between
-performance, usability, and scalability. This project demonstrates how a clean frontend UI
-combined with an optimized backend can deliver fast, real-time results.
+High-performance systems like escort directory platforms require efficient queries
+and minimal overhead.
 </p>
 
 <p>
-Explore the full implementation here:
+Explore the live system:
 <br><br>
 👉 <a href="https://escort-ui.rebel3500.org" target="_blank">
-https://escort-ui.rebel3500.org
+Live escort directory UI platform (real production demo)
 </a>
 </p>
 
 </div>
-
-<script src="../script.js"></script>
 </body>
 </html>
