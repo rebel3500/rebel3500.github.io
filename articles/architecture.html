@@ -2,61 +2,42 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>High-Concurrency Directory Architectures</title>
-<meta name="description" content="Optimizing real-time directory systems for performance and scalability.">
-
-<link rel="canonical" href="https://rebel3500.github.io/articles/architecture.html">
-
+<meta name="description" content="Designing scalable directory systems for real-time data and high concurrency.">
 <link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
-
-<button id="themeToggle">Toggle Theme</button>
-
 <div class="container">
+
 <a href="../index.html">← Home</a>
 
-<h1>Optimizing High-Concurrency Directory Architectures</h1>
+<h1>High-Concurrency Directory Architectures</h1>
 
 <p>
-Modern directory platforms must handle real-time availability,
-location-based filtering, and high concurrency simultaneously.
+Modern directory platforms require handling thousands of concurrent users while maintaining
+fast response times and real-time availability.
 </p>
 
 <p>
-In production systems, the primary bottleneck is not storage —
-it is <strong>retrieval under load</strong>.
+Efficient architecture focuses on read optimization, caching strategies, and minimizing database contention.
 </p>
 
-<h2>Performance-Driven Backend</h2>
+<h2>Why This Matters</h2>
 
 <p>
-A lean C# backend combined with optimized SQL queries allows
-sub-10ms response times even during peak traffic.
+Systems like escort-style listing platforms depend heavily on fast reads, filtering,
+and UI responsiveness.
 </p>
 
-<h2>Real Implementation</h2>
-
 <p>
-A live system demonstrating these principles:
-<br>
+See a working implementation:
+<br><br>
 👉 <a href="https://escort-ui.rebel3500.org" target="_blank">
-Main directory platform
+Live escort directory UI platform (real production demo)
 </a>
 </p>
 
-<p>
-Location-specific pages:
-<br>
-👉 <a href="https://escort-ui.rebel3500.org/escorts/tbilisi" target="_blank">Tbilisi listings</a><br>
-👉 <a href="https://escort-ui.rebel3500.org/escorts/batumi" target="_blank">Batumi listings</a>
-</p>
-
 </div>
-
-<script src="../script.js"></script>
 </body>
 </html>
