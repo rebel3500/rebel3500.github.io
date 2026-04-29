@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url><loc>https://rebel3500.github.io/</loc></url>
+<url><loc>https://rebel3500.github.io/about.html</loc></url>
+<url><loc>https://rebel3500.github.io/features.html</loc></url>
+
 <url><loc>https://rebel3500.github.io/articles/architecture.html</loc></url>
 <url><loc>https://rebel3500.github.io/articles/performance.html</loc></url>
 <url><loc>https://rebel3500.github.io/articles/scaling.html</loc></url>
